@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Login </title>
+    <style>
+       
+         /* #f1 {
+            
+        } */
+        /* #f2 {
+            background-color: rgb(129, 184, 48);
+        }
+        #f3 {
+            background-color: rgb(129, 184, 48);
+        }  */
+        .center {
+            text-align: top;
+            color: white;
+            
+        }
+        .home {
+            text-align: end;
+        }
+        .border {
+            /* border-top: 300px; */
+            border: 10px solid dodgerblue;
+            background-color: rgb(51, 9, 150);
+            color: dodgerblue;
+            text-align: center;
+            width: 600px;
+            /* margin-top: 100px;
+            margin-left: 100px;
+            margin-bottom: 100px;
+            margin-right: 100px; */
+            margin: auto;
+            margin-top: 100px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+        .Sign{
+            display: inline-block;
+            font-size: large;
+            color: rgb(51, 9, 150);
+            background-color: aliceblue;
+        }
+        #b1 {
+            transition: 0.7s;
+            
+        }
+        #b1:hover{
+            background-color: dodgerblue;
+            color: white;
+
+        }
+        #b2 {
+            transition: 0.7s;
+        }
+        #b2:hover{
+            background-color: dodgerblue;
+            color: white;
+
+        }
+        #b3 {
+            transition: 0.7s;
+        }
+        #b3:hover{
+            background-color: dodgerblue;
+            color: white;
+
+        }
+        /* a.button {
+    
+    text-decoration: ivory;
+    color: white;
+} */
+      
+            
+
+    </style>
+ 
+</head>
+<body background="image.jpg">
+    <div class="border">
+        <h1 class="center">Login To Continue </h1>
+        <br>
+    <form id="f1">
+        
+        Enter Your email
+        <br>
+        <input type="text"
+        name="email"/>
+        <br>
+        <br>
+        Enter Your Password
+        <br>
+        <input type="password"
+        name="password"/>
+        <br>
+       
+    </form> 
+   
+    <br>
+    <form>
+        <input id="b1" type="button"
+        name = "Login" value="Login"/>
+    </form>
+    <form>
+        <p>If You Don't Have An Account</p>
+        <p>Create An Account</p>
+        <input id="b2" type="button" onclick="location.href='Signup.html';" value="sign_up" />
+        <!-- <a href="signup.html" class="button">sign_up</a>
+         -->
+        <!-- <ul class="Sign">
+            <li><a href="signup.html">Signup</a></li>
+        </ul> -->
+    </form>
+    <form class="home">
+        <a><input id= "b3" type="button" onclick="location.href='index.html';" value="Go To Home" /></a>
+       
+    </form>
+    </div>
+
+     
+</body>
+</html>

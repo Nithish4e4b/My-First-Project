@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> sign_up </title>
+    <style>
+       
+         /* #f1 {
+            
+        } */
+        /* #f2 {
+            background-color: rgb(129, 184, 48);
+        }
+        #f3 {
+            background-color: rgb(129, 184, 48);
+        }  */
+        .center {
+            text-align: top;
+            color: white;
+            
+        }
+        .border {
+            /* border-top: 300px; */
+            border: 10px solid dodgerblue;
+            background-color: rgb(51, 9, 150);
+            color: dodgerblue;
+            text-align: center;
+            width: 600px;
+            /* margin-top: 100px;
+            margin-left: 100px;
+            margin-bottom: 100px;
+            margin-right: 100px; */
+            margin: auto;
+            margin-top: 100px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+        .home {
+            text-align: end;
+        }
+        #b1 {
+           transition: 0.7s;
+        }
+        #b1:hover {
+            background-color: dodgerblue;
+            color: white;
+
+        }
+        #b2 {
+            transition: 0.7s;
+        }
+        #b2:hover {
+            background-color: dodgerblue;
+            color: white;
+
+        }
+        #b3 {
+            transition: 0.7s;
+        }
+
+        #b3:hover {
+            background-color: dodgerblue;
+            color: white;
+
+
+        }
+      
+            
+
+    </style>
+ 
+</head>
+<body background="image.jpg">
+    <div class="border">
+        <h1 class="center">Create An Account </h1>
+        <br>
+    <form >
+        Enter Your Full Name
+        <br>
+        <input type="text"
+        name="full_name"/>
+        <br>
+        <br>
+        Enter Your email
+        <br>
+        <input type="text"
+        name="email"/>
+        <br>
+        <br>
+        Enter Your Password
+        <br>
+        <input type="password"
+        name="password"/>
+        <br>
+        <br>
+        Confirm Your Password
+        <br>
+        <input type="password"
+        name="confirm_password"/>
+    </form> 
+    <br>
+    <br>
+    <form >
+        DOB
+        <input type="date"
+        name="dob"/>
+        <br>
+        <br>
+        Select Your Gender
+        <br>
+        <input type="radio"
+        name="male"/>Male
+        <input type="radio"
+        name="female"/>Female
+        <input type="radio"
+        name="others"/>Others
+    </form> 
+    <br>
+    <form >
+        <input id = "b1" type="button"
+        name = "sign_up" value="sign up"/>
+    </form>
+    <form>
+        <p>If you Already have an Account</p>
+        <p>Then Login</p>
+        <input id="b2" type="button" onclick="location.href='login.html';" value="Login" />
+        <br>
+        
+    </form>
+    <br>
+    <form class="home">
+        <input id="b3" type="button" onclick="location.href='index.html';" value="Go to Home" />
+    </form>
+    </div>
+
+
+     
+</body>
+</html>

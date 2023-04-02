@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Contact Us </title>
+    <style>
+       
+
+        .center {
+            text-align: top;
+            color: white;
+            
+        }
+        .border {
+            
+            border: 10px solid dodgerblue;
+            background-color: rgb(51, 9, 150);
+            color: dodgerblue;
+            text-align: center;
+            width: 600px;
+            margin: auto;
+            margin-top: 100px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+        .Sign{
+            display: inline-block;
+            font-size: large;
+            color: rgb(51, 9, 150);
+            background-color: aliceblue;
+        }
+        .m1{
+            
+            margin: 1%;
+            padding-right: 70px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 70px;
+            transition: 0.7s;
+        }
+        .m1:hover{
+            color: white;
+            background-color: dodgerblue;
+        }
+        .home {
+            text-align: end;
+        }
+        #b1{
+            transition: 0.7s;
+        }
+        #b1:hover{
+            color: white;
+            background-color: dodgerblue;
+
+        }
+
+      
+            
+
+    </style>
+ 
+</head>
+<body background="image.jpg">
+    <div class="border">
+        <h1 class="center"> Contact Us </h1>
+        <br>
+    <form>
+        
+        First Name
+        <br>
+        <input type="text"
+        name="firstname"/>
+        <br>
+        <br>
+        Last Name
+        <br>
+        <input type="text"
+        name="lastname"/>
+        <br>
+        <br>
+        Email
+        <br>
+        <input type="text"
+        name="email"/>
+        <br>
+        <br>
+        Message:
+        <br>
+        <textarea name="Message" cols="40" rows="4"></textarea>
+        <br>
+        <input class= "m1" type="button"
+        name = "sendmessage" value="Send Message"/>
+       
+    </form> 
+   
+    <br>
+    <form class="home">
+        <input id= "b1" type="button" onclick="location.href='index.html';" value="Go To Home" />
+       
+    </form>
+    </div>
+
+     
+</body>
+</html>
